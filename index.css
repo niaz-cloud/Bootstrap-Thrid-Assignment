@@ -1,0 +1,174 @@
+/* Add this CSS to your styles.css file */
+body {
+    background-color: #000; /* Set a black background color for the body */
+    color: #fff; /* Set text color to white */
+  }
+  .text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .orange-text {
+    color: orange;
+  }
+  
+  
+  .navbar {
+    background-color: #000 !important; /* Set background color for the navbar */
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff !important; /* Set text color for the links in the navbar */
+  }
+  
+  .navbar-dark .navbar-brand img {
+    filter: invert(1) brightness(100) sepia(1) hue-rotate(180deg); /* Make the logo color white */
+  }
+  .navbar-dark .navbar-brand img {
+    filter: brightness(0) invert(1); /* Make the logo color white */
+  }
+  .btn-orange {
+    background-color: orange;
+    border-color: orange;
+  }
+  
+  .btn-orange:hover {
+    background-color: darkorange;
+    border-color: darkorange;
+  }
+  .orange-text {
+    color: orange;
+  }
+
+ 
+  /* Add this CSS to your index.css file */
+  .btn-orange {
+    background-color: orange;
+    border-color: orange;
+    color: white;
+  }
+  
+  .btn-orange:hover {
+    background-color: darkorange;
+    border-color: darkorange;
+  }
+  
+  .rounded-pill {
+    border-radius: 50px; /* Makes the button curved */
+  }
+  
+  
+  /* Add this CSS to your index.css file */
+header {
+    margin-bottom: 20px; /* Adds space below the header */
+  }
+  
+  .container {
+    margin-bottom: 20px; /* Adds space below the container */
+  }
+  
+  /* Additional styles can be added here */
+  .btn-ash {
+    background-color: #c0c0c0;
+    border-color: #c0c0c0;
+    color: #fff;
+  }
+  
+  .btn-ash:hover {
+    background-color: #a9a9a9;
+    border-color: #a9a9a9;
+  }
+  /* Base styles for the background image and content overlay */
+.background-img {
+    position: relative;
+    background-image: url('image/Rectangle 5.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .content-overlay {
+    position: absolute;
+    top: 50%; /* Adjust vertical position */
+    left: 50%; /* Adjust horizontal position */
+    transform: translate(-50%, -50%);
+    text-align: center; /* Adjust text alignment */
+    color: white; /* Text color */
+    width: 80%; /* Adjust content width */
+    padding: 20px; /* Adjust content padding */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
+  }
+  .custom-container {
+    padding: 50px; 
+    background-color: #c0c0c0; /* Ash color */
+    border: 2px solid #ccc; /* Visible border */
+  }
+  .custom-logo {
+    width: 80px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    /* Add more styling as needed */
+  }
+  .btn-orange {
+    background-color: orange;
+    border-color: orange;
+    color: white;
+  }
+  
+  .btn-orange:hover {
+    background-color: darkorange;
+    border-color: darkorange;
+  }
+  
+  .rounded-pill {
+    border-radius: 20px; /* Adjust the border-radius to your desired curve */
+  }
+  /* Apply different padding values to each column */
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust as needed */
+  }
+
+ 
+  .image-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.play-button {
+  /* Set the size and style of your play button */
+  width: 100px;
+  height: 100px;
+}
+.enlarged {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Let the height adjust proportionally */
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1C140F;
+  padding: 10px;
+}
+
+.search-box input[type="text"],
+.search-box button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  background: transparent;
+  color: white;
+}
+
